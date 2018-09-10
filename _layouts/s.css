@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+html, body { padding: 0; margin: 0; }
+div { width: 50%;  float: left; }
+@viewport{
+	zoom:1.0;
+	width: extend-to-zoom;
+}
+@-ms-viewport
+{
+	width: extend-to-zoom;
+	zoom:1.0;
+	
+}
+.div1{
+	width:100%;
+	height:100px;
+	background-color:#0D0C0C;
+
+}
+.ss
+{
+	padding-top: 30px;
+	padding-bottom:20px;
+	background-color:transparent;
+}
+.div2
+{
+	width:100%;
+	height:500px;
+	overflow: hidden;
+	background-image:url(images/shg1.jpg);
+}
+a
+{ 
+	color: aliceblue;
+	align-content: center;
+	font-size:35px;
+	padding-left: 150px;
+	padding-top: 50px;
+	text-decoration: none;
+}
+.div3{
+	width:750px;
+	height:500px;
+	overflow: hidden;
+}
+.div4{
+	width:25%;
+	height: 500px;
+	background-color: transparent;
+}
+/*sliding code*/
+.div2 div3 outerbox
+{
+	width:750px;
+	overflow: hidden;
+}
+.sliderbox
+{
+	position:relative;
+	width:3000px;
+	animation-name:sliding;
+	animation-duration: 20s;
+}
+.sliderbox img
+{
+	float:left;
+}
+@keyframes sliding
+{
+	0%{
+		left:0px;
+	}
+	20%{
+		
+		left: 0px;
+	}
+	25%{
+		left:-750px;
+	}
+	45%{
+		left:-750px;
+	}
+	50%
+	{
+		left:-1500px;
+	}
+	70%
+	{
+		left:-1500px;
+	}
+	75%
+	{
+		left:-2250px;
+	}
+	95%
+	{
+		left:-2250px;
+	}
+	100%
+	{
+		left:-3000px;
+	}
+}
+/*end sliding code*/
+
+	
+.about
+{  
+	width: 100%;
+    background-color: black;
+    font-family: Comic Sans MS;
+	color: white;
+	font-size: 25px;
+	align-content: center;
+}
+.x
+{
+	font-size: 30px;
+}
+
